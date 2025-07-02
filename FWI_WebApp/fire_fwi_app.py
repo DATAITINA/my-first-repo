@@ -12,7 +12,7 @@ import seaborn as sns
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('FWI_WebApp//Algerian_Forest_Fire_Cleaned_Dataset.csv')
+    return pd.read_csv('FWI_WebApp/Algerian_Forest_Fire_Cleaned_Dataset.csv')
 
 
 data = load_data()
