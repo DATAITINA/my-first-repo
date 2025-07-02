@@ -12,7 +12,7 @@ import seaborn as sns
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('C:\\Users\\David Itina\\Desktop\\FWI_WebApp\\Algerian_Forest_Fire_Cleaned_Dataset.csv')
+    return pd.read_csv('Algerian_Forest_Fire_Cleaned_Dataset.csv')
 
 data = load_data()
 features = ['Temperature', 'RH', 'Ws', 'Rain', 'FFMC', 'DMC', 'DC', 'ISI', 'BUI']
